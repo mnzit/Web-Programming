@@ -1,0 +1,252 @@
+.all {
+    position: fixed;
+    width: 100%;
+}
+
+.california {
+    background-color: #3B5998;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5px 0.5px;
+    font-size: 38px;
+    font-weight: 900;
+    cursor: pointer;
+    float: left;
+    font-family: 'Luckiest Guy', cursive;
+    width: 25%;
+}
+
+.california:hover {
+    text-shadow: 0px 0px 0px #000000;
+    text-outline: 2px 2px black;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.home {
+    background-color: #3B5998;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    float: left;
+    width: 5%;
+    border-bottom-style: initial;
+}
+
+.home:hover {
+    text-shadow: 0px 0px 0px #000000;
+}
+
+.history {
+    background-color: #3B5998;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px 1px;
+    font-size: 24px;
+    font-weight: 900;
+    cursor: pointer;
+    float: left;
+    font-family: 'Cinzel', serif;
+    width: 20%;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.history:hover {
+    background-color: #538DCC;
+    color: white;
+    box-shadow: 0 25px 16px 0 rgba(0, 0, 0, 0.40), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s;
+    padding-right: 1px;
+    font-size: 24px;
+    text-shadow: 0px 0px 0px #000000;
+}
+
+.gallery {
+    background-color: #3B5998;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px 1px;
+    font-size: 24px;
+    font-weight: 900;
+    cursor: pointer;
+    float: left;
+    width: 25%;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.gallery:hover {
+    background-color: #538DCC;
+    color: white;
+    box-shadow: 0 25px 16px 0 rgba(0, 0, 0, 0.40), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s;
+    padding-right: 1px;
+    \ text-shadow: 0px 0px 0px #000000;
+    font-size: 24px;
+    color: white;
+}
+
+.about {
+    background-color: #3B5998;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+    font-family: 'Cinzel', serif;
+    width: 25%;
+    padding: 11px 1px;
+    font-size: 24px;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.about:hover {
+    background-color: #538DCC;
+    color: white;
+    box-shadow: 0 25px 16px 0 rgba(0, 0, 0, 0.40), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s;
+    padding-right: 1px;
+    font-size: 24px;
+}
+
+.mainpic {
+    margin-top: 30px;
+    background-image: url(12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+.maintext {
+    height: 100%;
+    color: white;
+    padding: 70px 0px 500px 0px;
+    text-align: center;
+    font-size: 200px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-shadow: 10px 6px 1px #000000;
+    transition: all 3s;
+}
+
+.maintext:hover {
+    height: 100%;
+    color: white;
+    padding: 70px 0px 500px 0px;
+    text-align: center;
+    font-size: 200px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-shadow: 10px 20px 1px #000000;
+    transition: all 0.3s;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #E9EBEE;
+}
+
+.rt:hover {
+    color: white;
+}
+
+.text {
+    font-size: 30px;
+    text-align: center;
+    background-color: none;
+}
+
+.text:hover {
+    text-shadow: 2px 2px 4px #000000;
+    transition: all 0.5s;
+}
+
+#home {
+    font-size: 48px;
+    color: #E9EBEE;
+    cursor: pointer;
+}
+
+#home:hover {
+    color: white;
+    text-outline: 2px 2px black;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+#middle {
+    font-family: 'Faster One', cursive;
+    color: white;
+    text-shadow: 1px 10px 10px #000000;
+    font-size: 180px;
+}
+
+.hiscont {
+    text-align: justify;
+    color: black;
+    background-color: #D9E9FF;
+    padding: 50px;
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 25px 16px 0 rgba(0, 0, 0, 0.40), 0 17px 50px 0 rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+.ims {
+    float: right;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.gller {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    transition: all 0.5s;
+}
+
+.gller:hover {
+    box-shadow: 0 25px 16px 0 rgba(0, 0, 0, 0.40), 0 17px 50px 0 rgba(0, 0, 0, 1);
+    padding: 2px;
+    transition: all 0.4s;
+    border-radius: 10px;
+}
+
+.gal {
+    padding: 60px;
+}
+
+.top {
+    color: black;
+    background-color: black;
+    border: black;
+    box-shadow: 0 25px 16px 0 rgba(0, 0, 0, 0.40), 0 17px 50px 0 rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.imss {
+    float: left;
+    height: 250px;
+    width: 350px;
+    padding: 10px;
+}
+
+.copy {
+    background-color: black;
+    font-size: 12;
+    color: white;
+}
